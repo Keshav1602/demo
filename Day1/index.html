@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td colspan="2">
+                    <h1>Registration Form</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="t1" required></td>
+            </tr>
+            <tr>
+                <td>Email id</td>
+                <td><input type="text" name="e1" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="p1" required></td>
+            </tr>
+            <tr>
+                <td>Address :</td>
+                <td><textarea name="a1" rows="3" cols="30"></textarea>  
+            </tr>
+            <tr>
+                <td>Branch</td>
+                <td>
+                    CSE-DS<input type="radio" name="r1">
+                    CSE<input type="radio" name="r1">
+                    AIML<input type="radio" name="r1">
+                    IT<input type="radio" name="r1">
+                </td>
+            </tr>
+            <tr>
+                <td>Languages </td>
+                <td>
+                    C<input type="checkbox" name="c1" value="C">
+                    C++<input type="checkbox" name="c2" value="C++">
+                    Java<input type="checkbox" name="c3" value="java">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td>Upload profile</td>
+                <td><input type="file" name="f1"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="register"></td>
+                <td><input type="reset" value="CLear"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
