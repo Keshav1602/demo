@@ -8,6 +8,6 @@ div p{
 div + p{
     background-color : rgb(0, 53, 4);
 }
-/* div ~ p{
+div ~ p{
     background-color : black;
-} */
+}
